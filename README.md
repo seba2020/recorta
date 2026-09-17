@@ -11,7 +11,7 @@ La versión sin notarización está en `releases/Recorta-0.1.0-beta-macOS-Apple-
 SHA-256:
 
 ```text
-d04ba5246d38323ca3acffe5c93fa36442337f35859241d3117b16849d5dcdd7
+8a8885c2f72e11e37490bf8a980eb57fee55ccaadd552ebe0074c5c674da618a
 ```
 
 ## Compilar
