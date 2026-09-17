@@ -4,9 +4,11 @@ Recorta es una aplicación gratuita y de código abierto para macOS. Abre una ca
 
 La versión 0.1 beta requiere macOS 14 o posterior y un Mac con Apple Silicon.
 
+Sitio oficial: [recorta-delta.vercel.app](https://recorta-delta.vercel.app/)
+
 ## Descargar
 
-La versión sin notarización está en `releases/Recorta-0.1.0-beta-macOS-Apple-Silicon.zip`. Después de intentar abrirla por primera vez, autorízala en **Ajustes del Sistema → Privacidad y seguridad → Abrir igualmente**.
+Descarga [Recorta 0.1 Beta para Apple Silicon](https://github.com/seba2020/recorta/releases/download/v0.1.0-beta/Recorta-0.1.0-beta-macOS-Apple-Silicon.zip). Después de intentar abrirla por primera vez, autorízala en **Ajustes del Sistema → Privacidad y seguridad → Abrir igualmente**.
 
 SHA-256:
 
