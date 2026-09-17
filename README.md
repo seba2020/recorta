@@ -52,4 +52,4 @@ La beta no está firmada con Developer ID ni notarizada. El script genera una ap
 
 ## Privacidad y licencia
 
-Recorta procesa todo localmente y no contiene cuentas, anuncios ni analítica. Consulta [PRIVACY.md](PRIVACY.md). El proyecto se distribuye bajo la licencia MIT incluida en [LICENSE](LICENSE).
+La aplicación Recorta procesa todo localmente y no contiene cuentas, anuncios ni analítica. El sitio oficial utiliza estadísticas anónimas de visitas mediante Vercel Web Analytics, sin cookies. Consulta [PRIVACY.md](PRIVACY.md). El proyecto se distribuye bajo la licencia MIT incluida en [LICENSE](LICENSE).
