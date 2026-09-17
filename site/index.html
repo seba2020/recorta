@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Recorta fotografías rápidamente en macOS. Encuadra, presiona Enter y continúa. Gratis, local y de código abierto.">
+  <meta name="theme-color" content="#0b1012">
+  <title>Recorta — Recorta fotos a la velocidad de tus manos</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%23182326'/%3E%3Cpath d='M18 19a7 7 0 1 0 0 14 7 7 0 0 0 0-14Zm0 22a7 7 0 1 0 0 14 7 7 0 0 0 0-14Zm6-10 25-11c2-1 4 1 2 3L29 37m-5 4 25 11c2 1 4-1 2-3L29 35' fill='none' stroke='%23a6f0c4' stroke-width='4.5' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="wrap">
+    <nav aria-label="Navegación principal">
+      <a class="brand" href="#inicio"><img src="app-icon.png" alt=""> Recorta</a>
+      <div class="nav-links"><a href="#funciones">Funciones</a><a href="#atajos">Atajos</a><a href="#instalar">Cómo abrirla</a><a class="button" href="https://github.com/seba2020/recorta/releases/download/v0.1.0-beta/Recorta-0.1.0-beta-macOS-Apple-Silicon.zip">Descargar</a></div>
+    </nav>
+  </header>
+  <main id="inicio">
+    <div class="hero wrap">
+      <div class="eyebrow">Gratis para macOS</div>
+      <h1>Recorta fotos a la velocidad de tus manos.</h1>
+      <p class="lead">Encuadra, presiona Enter y continúa. Recorta carpetas completas sin abrir un editor distinto para cada fotografía.</p>
+      <div class="actions"><a class="button primary" href="https://github.com/seba2020/recorta/releases/download/v0.1.0-beta/Recorta-0.1.0-beta-macOS-Apple-Silicon.zip">Descargar Recorta 0.1 Beta ↓</a><a class="button" href="#instalar">Instrucciones de instalación</a></div>
+      <p class="compat">macOS 14 o posterior · Apple Silicon · Sin cuentas · Sin publicidad</p>
+      <div class="app-frame" aria-label="Vista de la aplicación Recorta">
+        <div class="app">
+          <div class="titlebar"><span class="lights"><i></i><i></i><i></i></span><strong>✂ Recorta &nbsp;/&nbsp; Vacaciones</strong></div>
+          <div class="workspace"><aside class="thumbs"><small>FOTOS &nbsp; 42</small><div class="thumb active"><div class="mini-photo"></div><span>12 playa.heic</span></div><div class="thumb"><div class="mini-photo"></div><span>13 paseo.heic</span></div></aside><div class="canvas"><div class="photo"></div></div></div>
+          <div class="bottombar"><div class="file"><strong>playa.heic</strong><span>2.804 × 3.742 px · Libre</span></div><span class="enter">Recortar y seguir ↵</span></div>
+        </div>
+      </div>
+    </div>
+    <section id="funciones" class="wrap">
+      <div class="section-head"><div class="eyebrow">Un trabajo, bien hecho</div><h2>Todo lo necesario para mantener el ritmo.</h2><p>Recorta se concentra en una sola tarea para eliminar pasos y decisiones repetitivas.</p></div>
+      <div class="grid">
+        <article class="card"><span class="icon">↵</span><h3>Flujo continuo</h3><p>Guarda el recorte y carga la siguiente fotografía con una sola tecla.</p></article>
+        <article class="card"><span class="icon">⌨</span><h3>Control por teclado</h3><p>Reduce o amplía cada borde manteniendo las flechas, con velocidad configurable.</p></article>
+        <article class="card"><span class="icon">▦</span><h3>Miniaturas rápidas</h3><p>Revisa toda la carpeta, identifica las procesadas y salta directamente a cualquier imagen.</p></article>
+        <article class="card"><span class="icon">↶</span><h3>Respaldos automáticos</h3><p>Antes de reemplazar una foto, conserva una copia exacta para poder deshacer.</p></article>
+        <article class="card"><span class="icon">□</span><h3>Proporciones útiles</h3><p>Trabaja libremente o elige 1:1, 4:3, 3:2 y 9:16.</p></article>
+        <article class="card"><span class="icon">◉</span><h3>Privacidad local</h3><p>Tus fotografías permanecen en tu Mac. Recorta no utiliza servidores ni analítica.</p></article>
+      </div>
+    </section>
+    <section id="atajos" class="wrap">
+      <div class="section-head"><div class="eyebrow">Menos mouse, más ritmo</div><h2>Los atajos se sienten naturales.</h2></div>
+      <div class="shortcuts">
+        <div class="shortcut"><kbd>Flechas</kbd><span>Reducir el borde correspondiente</span></div><div class="shortcut"><kbd>⌥ + Flechas</kbd><span>Ampliar el borde</span></div>
+        <div class="shortcut"><kbd>⇧ + Flechas</kbd><span>Aumentar la velocidad</span></div><div class="shortcut"><kbd>Enter</kbd><span>Recortar y continuar</span></div>
+        <div class="shortcut"><kbd>Espacio</kbd><span>Saltar la fotografía</span></div><div class="shortcut"><kbd>B</kbd><span>Ver temporalmente la original</span></div>
+        <div class="shortcut"><kbd>Esc</kbd><span>Restablecer el encuadre</span></div><div class="shortcut"><kbd>⌘ Z</kbd><span>Deshacer el último recorte</span></div>
+      </div>
+    </section>
+    <section class="wrap privacy">
+      <div><div class="eyebrow">Privacidad</div><h2>Tus fotos no salen de tu Mac.</h2><p>Recorta no tiene cuentas, anuncios, seguimiento ni servidores. Todo el procesamiento ocurre localmente.</p></div>
+      <div><div class="eyebrow">Tus originales</div><h2>Un respaldo antes de cada cambio.</h2><p>La fotografía se reemplaza para mantener el flujo rápido. Antes, Recorta guarda una copia exacta dentro de <code>.recorta-backups</code> en la carpeta seleccionada.</p><p class="notice">Conserva los respaldos hasta revisar tus resultados. Si recortas la misma foto varias veces, se crea una copia nueva en cada ocasión.</p></div>
+    </section>
+    <section id="instalar" class="wrap">
+      <div class="section-head"><div class="eyebrow">Primera apertura</div><h2>Cómo abrir esta beta.</h2><p>Recorta todavía no está notarizada por Apple. macOS pedirá una autorización manual solamente la primera vez.</p></div>
+      <div class="steps"><p>Descarga el ZIP, descomprímelo y arrastra <strong>Recorta.app</strong> a Aplicaciones.</p><p>Intenta abrir Recorta. macOS mostrará una advertencia; ciérrala.</p><p>Abre <strong>Ajustes del Sistema → Privacidad y seguridad</strong>.</p><p>Presiona <strong>Abrir igualmente</strong> y confirma. A partir de entonces se abrirá normalmente.</p></div>
+      <p class="notice">Descarga la aplicación únicamente desde esta página. SHA-256: <code id="checksum">d04ba5246d38323ca3acffe5c93fa36442337f35859241d3117b16849d5dcdd7</code>.</p>
+    </section>
+    <section class="wrap" style="text-align:center"><img src="app-icon.png" alt="Icono de Recorta" width="92" height="92" style="border-radius:22px"><h2 style="max-width:700px;margin:20px auto">Gratis, sencilla y hecha para ahorrar tiempo.</h2><div class="actions"><a class="button primary" href="https://github.com/seba2020/recorta/releases/download/v0.1.0-beta/Recorta-0.1.0-beta-macOS-Apple-Silicon.zip">Descargar para macOS ↓</a><a class="button" href="https://github.com/seba2020/recorta" target="_blank" rel="noopener noreferrer">Ver código fuente ↗</a></div></section>
+    <section class="wrap contact" aria-labelledby="contact-title">
+      <div>
+        <div class="eyebrow">Contacto</div>
+        <h2 id="contact-title">¿Encontraste un problema o tienes una idea?</h2>
+        <p>Cuéntamelo por mensaje directo en X. Los comentarios de quienes usan Recorta ayudan a decidir qué mejorar después.</p>
+      </div>
+      <a class="button x-button" href="https://x.com/Sebahhgg" target="_blank" rel="me noopener noreferrer" aria-label="Enviar un mensaje directo a Sebahhgg en X">Escríbeme en X&nbsp; ↗</a>
+    </section>
+  </main>
+  <footer><div class="wrap foot"><span>Recorta 0.1 Beta · <a href="https://github.com/seba2020/recorta" target="_blank" rel="noopener noreferrer">Código abierto con licencia MIT</a>.</span><span><a href="https://x.com/Sebahhgg" target="_blank" rel="me noopener noreferrer">@Sebahhgg en X</a> · Sin cookies · Sin analítica · 2026</span></div></footer>
+</body>
+</html>
